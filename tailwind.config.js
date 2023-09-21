@@ -12,6 +12,16 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      
+      fontFamily: {
+        jura: ['Jura', 'sans-serif'],
+        bruno: ['Bruno Ace', 'cursive'],
+      },
+
+      backgroundImage: {
+        'fundo-banner': "url('/img/fundo-banner.png')",
+        'logo-freestyle': "url('/img/logo-freestyle.png')",
+      }
     },
   },
   plugins: [],
